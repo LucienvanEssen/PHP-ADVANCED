@@ -12,9 +12,9 @@
     <form action="advanced-2.php" method="post">
 
         <label for="tabelRandDikte">Tabelranddikte (px):</label><input type="number" name="tabelRandDikte" id="tabelRandDikte">
-
+        <br>
         <label for="celPadding">Celpadding (px):</label><input type="number" name="celPadding" id="celPadding">
-
+        <br>
         <label for="achtergrondKleuren">Kies een achtergrondkleur:</label>
         <select name="achtergrondKleuren" id="achtergrondKleuren">
             <?php
@@ -24,7 +24,7 @@
             }
             ?>
         </select>
-
+        <br>
         <label for="tekstKleuren">Kies een tekstkleur:</label>
         <select name="tekstKleuren" id="tekstKleuren">
             <?php
@@ -33,7 +33,7 @@
             }
             ?>
         </select>
-
+        <br>
         <input type="submit" value="verstuur">
     </form>
 </body>
